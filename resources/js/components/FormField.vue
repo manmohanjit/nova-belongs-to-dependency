@@ -31,7 +31,7 @@
             },
             componentIsDependency(component) {
                 if(component.field === undefined) {
-                    return false;
+                    return false
                 }
 
                 return component.field.attribute === this.field.dependsOn
@@ -40,10 +40,11 @@
                 if(value === this.dependsOnValue) {
                     return
                 }
-                this.dependsOnValue = value
-                this.selectedResource = null
 
-                this.getAvailableResources().then(() => this.selectInitialResource())
+                this.dependsOnValue = value
+
+                this.clearSelection()
+                this.initializeComponent()
             },
         },
 
