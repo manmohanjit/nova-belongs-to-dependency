@@ -37,6 +37,9 @@
                 return component.field.attribute === this.field.dependsOn
             },
             dependencyWatcher(value) {
+                if(value === this.dependsOnValue) {
+                    return
+                }
                 this.dependsOnValue = value
                 this.selectedResource = null
 
