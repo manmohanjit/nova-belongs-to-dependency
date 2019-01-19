@@ -4,7 +4,7 @@
             dependsOnValue: null,
         }),
 
-        mounted() {
+        created() {
             if(this.field.dependsOn !== undefined) {
                 this.registerDependencyWatchers(this.$root)
             }
