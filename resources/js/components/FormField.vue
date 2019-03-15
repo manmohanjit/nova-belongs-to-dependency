@@ -45,6 +45,7 @@
 
                 this.clearSelection()
                 this.initializeComponent()
+                this.initializeComponent()
             },
         },
 
