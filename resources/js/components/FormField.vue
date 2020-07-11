@@ -44,7 +44,9 @@
                 this.dependsOnValue = value
 
                 this.clearSelection()
-                this.initializeComponent()
+				setTimeout(() => {
+	                this.initializeComponent()
+				}, 1000);
             },
         },
 
