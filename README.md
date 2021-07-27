@@ -1,5 +1,8 @@
 # BelongsTo field with dependency support for Nova
 
+# THIS PROJECT IS NO LONGER MAINTAINED, PLEASE USE 
+https://github.com/webparking/nova-belongs-to-dependency
+
 This package is an extension of Laravel Nova's existing BelongsTo field and Vue components.
 
 ## Installation
